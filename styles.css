@@ -184,7 +184,8 @@ body {
 /* Ensuring Navbar doesn't show at 480px */
 @media (max-width: 480px) {
   .navbar {
-    display: none !important; /* Forcefully hide navbar */
+    flex-direction: column;
+    padding: 5px 10px;
   }
 
   .hero-content h1 {
